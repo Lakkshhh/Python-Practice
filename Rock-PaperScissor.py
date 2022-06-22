@@ -8,9 +8,9 @@ tie = 0
 play_game = True
 while play_game:
   user_ch = input('''Enter your choice:
-1) Rock 
-2) Scissor 
-3) Paper 
+-> Rock 
+-> Scissor 
+-> Paper 
 
 ''')
   print()
@@ -54,8 +54,8 @@ while play_game:
   usr_ch = True
   while usr_ch:
     usr = input('''Do you wish to play again? 
-1) Yes
-2) No
+-> Yes
+-> No
 
 ''')
     print()
